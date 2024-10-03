@@ -1,0 +1,50 @@
+Generate a structured JSON response for a commercial vehicle insurance.
+The response should be in the below output format. Don't give explanation.
+
+Output format:
+{
+    "policyNumber": "123456",
+    "policyStartDate": "2024-01-01",
+    "policyType": "Commercial Auto",
+    "policyHolderName": "John Doe",
+    "policyHolderDOB": "10/21/2000",
+    "policyHolderAddress": "1500 N Michael Dr",
+    "policyHolderCity": "Wood Dale",
+    "policyHolderState": "Illinois",
+    "policyHolderZipCode": 60191,
+    "yearBusinessStarted": 1999,
+    "businessDescription": "Freight & Logistics",
+    "businessOwnerName": "John Doe",
+    "vehicleDetails": [
+        {
+            "vehicleNumber": "001",
+            "vehicleMake": "Volvo",
+            "vehicleModel": "S60",
+            "bodyType": "Automobile - 4 Door Sedan",
+            "grossVehicleWeight": "1000",
+            "baseMSRP": "1000000",
+            "totalMSRP": "1000000",
+            "radiusOfOperation": "100",
+            "annualMileage": "85000",
+            "vehicleYear": "1996",
+            "vinNumber": "1VXYZ1234567891011",
+            "vehicleUseDesc": "Leased to United States Government - owner",
+            "garagedAddress": "7 158th Pl",
+            "garagedCity": "Calumet City",
+            "garagedState": "IL",
+            "garagedZipCode": 60409,
+            "applicationRegisteredOwner": true
+        }
+    ],
+    "driverDetails": [
+        {
+            "driverName": "Michael Smith",
+            "driverLicenseNumber": "C12345678",
+            "driverDOB": "1985-05-14",
+            "driverLicenseState": "California",
+            "driverLicenseType": "US",
+            "driverRelationshipToApplicant": "Business Owner"
+        }
+    ],
+    "previousInsurer": "ABC Insurance"
+}

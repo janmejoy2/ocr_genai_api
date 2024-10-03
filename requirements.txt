@@ -1,0 +1,5 @@
+flask
+pyyaml
+PyPDF2
+google-generativeai
+Flask-BasicAuth

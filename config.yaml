@@ -1,0 +1,9 @@
+users:
+  admin:
+    password: "secret"
+  user:
+    password: "password"
+
+google_api_key: ""
+static_file_path: "./static/test_documents"
+prompt_file_path: "./static/ai_prompt/prompt.txt"
